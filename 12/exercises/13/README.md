@@ -17,7 +17,7 @@ void init_ident(int n, double ident[n][n]) {
     int zeros = n;
 
     while (p++ < ident[0] + n * n) {
-        if (zeros = n) {
+        if (zeros == n) {
             *p = 1;
             zeros = 0;
         } else {
